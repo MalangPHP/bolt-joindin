@@ -1,0 +1,29 @@
+{
+    "name": "malangphp/bolt-joindin",
+    "description": "BoltCMS Joindin Integration",
+    "type": "bolt-extension",
+    "keywords": ["malangphp", "joint"],
+    "minimum-stability": "stable",
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prasetyo Wicaksono",
+            "email": "pras@openmailbox.org"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\MalangPHP\\Joindin\\": ""
+        }
+    },
+
+    "extra": {
+        "bolt-assets": "assets"
+    }
+}
